@@ -3,7 +3,7 @@ let val=1;
 container.addEventListener("scroll",infiniteScroll);
 
 function infiniteScroll(){
-    console.log(container.scrollTop,container.clientHeight,container.scrollHeight )
+
     if(container.scrollTop+container.clientHeight+5>=container.scrollHeight ){
         append();
     }
